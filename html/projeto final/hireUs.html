@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpaceX</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -22,15 +23,15 @@
         <br><br>
         <section>
             <form action="">
-                <div>
+                <div class="inputs">
                     <label for="name">Name: </label>
                     <input type="text" name="name" id="name">
     
-                    <label for="email">- Email: </label>
+                    <label for="email">| Email: </label>
                     <input type="email" name="email" id="email">
                 </div>
                 <br>
-                <div>
+                <div class="inputs">
                     <label for="spaceship">Spaceship: </label>
                     <select name="spaceship" id="spaceship">
                         <option value="Falcon9">Falcon 9</option>
@@ -46,7 +47,7 @@
                     </datalist>
                 </div>
                 <br>
-                <div>
+                <div class="inputs">
                     <input type="submit" name="" value="Send Message"></input>
                 </div>
             </form>
