@@ -29,7 +29,6 @@ header, footer{
 }
 
 main{
-    width: 50%;
     margin-inline: auto;
     flex: 0 1 400px;
 }
@@ -48,4 +47,11 @@ main{
     height: 150px;
     justify-content: center;
     align-items: center;
+}
+
+@media(min-width: 325px){
+    .item{
+        width: 250px;
+        height: 200px;
+    }
 }
